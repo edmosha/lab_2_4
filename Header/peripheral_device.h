@@ -9,6 +9,7 @@ class PeripheralDevice {
 public:
     PeripheralDevice();
     virtual void Show();
+    virtual void SetSpeedParam(int _param);
     void SetServiceLife(int _serviceLife);
     void SetName(string _name);
     int GetServiceLife();

@@ -6,7 +6,7 @@
 class Scanner : public PeripheralDevice {
 public:
     Scanner(string _name, int _scanSpeed, int _serviceLife);
-    void SetScanSpeed(int _scanSpeed);
+    void SetSpeedParam(int _param);
     void Show();
 private:
     int scanSpeed;

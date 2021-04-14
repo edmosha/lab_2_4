@@ -6,7 +6,7 @@
 class Keyboard : public PeripheralDevice {
 public:
     Keyboard(string _name, int _keyResponseSpeed, int _serviceLife);
-    void SetKeyResponseSpeed(int _keyResponseSpeed);
+    void SetSpeedParam(int _param);
     void Show();
 private:
     int keyResponseSpeed;
